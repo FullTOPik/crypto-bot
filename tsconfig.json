@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "../../built/local/tsc.js",
+    "outDir": "build",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
